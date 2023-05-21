@@ -1,0 +1,112 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    }
+    body{
+    background-image: url(images/tatiana-rodriguez-0vjvsPijSsA-unsplash.jpg);
+    background-size: cover;
+    }
+  .container-fluid{
+    width:100%;
+  }
+
+  
+    
+  header nav {
+    min-height: 80px;
+    background-color: rgb(10, 10, 92);
+  }
+  
+  header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 32px;
+  }
+  
+ #id_logo i{
+  font-size: 3em;
+  padding-left: 10px;
+}
+  
+  nav a::after {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+  }
+  
+
+
+
+  nav a::before {
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: 1000ms;
+    margin: 0 auto;
+  }
+  
+
+
+  nav a:hover{
+    transform: scale(1.13);
+    transition : 600ms;
+  }
+
+
+
+.preBox{
+  background:  rgba(255, 255, 255, 0.885);
+  
+ 
+}
+
+.preImg{
+  height: 75%;
+}
+
+main {
+  min-height: 520px;
+}
+.box:hover {
+  
+  transform: scale(1.05);
+  transition: 600ms;
+}
+
+footer{
+  min-height: 80px;
+  background-color: rgb(10, 10, 92);
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+  
+ @media (max-width:768px) {
+
+  
+
+
+    .preBox {
+      min-height: 350px;
+      width: 600px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+  
+  
+  
+  }
+
+
+
